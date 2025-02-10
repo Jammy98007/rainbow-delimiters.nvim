@@ -84,14 +84,6 @@
   "[" @delimiter
   "]" @delimiter @sentinel) @container
 
-(type_arguments
-  "<" @delimiter
-  ">" @delimiter @sentinel) @container
-
-(type_parameters
-  "<" @delimiter
-  ">" @delimiter @sentinel) @container
-
 (closure_parameters
   "|" @delimiter
   (_)?
@@ -132,7 +124,3 @@
 (visibility_modifier
   "(" @delimiter
   ")" @delimiter @sentinel) @container
-
-(bracketed_type
-  "<" @delimiter
-  ">" @delimiter @sentinel) @container
