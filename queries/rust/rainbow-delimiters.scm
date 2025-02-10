@@ -84,11 +84,6 @@
   "[" @delimiter
   "]" @delimiter @sentinel) @container
 
-(closure_parameters
-  "|" @delimiter
-  (_)?
-  "|" @delimiter @sentinel) @container
-
 (array_expression
   "[" @delimiter
   "]" @delimiter @sentinel) @container
